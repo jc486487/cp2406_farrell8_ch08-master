@@ -13,7 +13,7 @@ public class CategorizeStrings
         String[] list1 = new String[10];
         String[] list2 = new String[10];
 
-        while (!sent.equals("STOP") && (sentences.length == 10))
+        while (!sent.equals("STOP") && (x != 10))
         {
             sentences[x++] = sent;
             if (sent.length() <= 10)
