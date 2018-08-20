@@ -2,7 +2,6 @@ public class DemoSalesperson
 {
     int idNumber;
     double salesAmt;
-    Object[][] salesperson = new Double[2][10];
 
     public DemoSalesperson(int idNumber, double salesAmt)
     {
@@ -22,11 +21,11 @@ public class DemoSalesperson
 
     public void setIdNumber(int idNumber)
     {
-        salesperson[0] = new Integer[]{9999};
+        this.idNumber = idNumber;
     }
 
     public void setSalesAmt (double salesAmt)
     {
-        salesperson[1] = new Double[]{0.0};
+        this.salesAmt = salesAmt;
     }
 }
